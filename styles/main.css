@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --mobile : 576px;
+    --tablet : 768px;
+    --laptop : 992px;
+    --desktop : 1200px;
+    --lg-destop : 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(1, 86, 207);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-inline: 10px;
+    /* height: 1000px; */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
